@@ -22,7 +22,7 @@ from langchain.chat_models import ChatOpenAI
 
 
 # Setup Keys and DB connection 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = ''
 #os.environ['SERPAPI_API_KEY'] = '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'
 db = SQLDatabase.from_uri("postgresql://postgres:postgres@localhost:5432/HR")
 
