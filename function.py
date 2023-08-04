@@ -18,7 +18,7 @@ from langchain.chat_models import ChatOpenAI
 
 
 # Setup Keys and DB connection 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = ''
 db = SQLDatabase.from_uri("postgresql://postgres:postgres@localhost:5432/HR")
 
 
